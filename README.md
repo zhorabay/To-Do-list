@@ -40,7 +40,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo link] - Here I will attach Live Demo link when the project will be ready.
+- Here I will attach Live Demo link when the project will be ready.
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
