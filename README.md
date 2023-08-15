@@ -40,7 +40,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo link](https://zhorabay.github.io/To-Do-list/)
+- Here I will attach Live Demo link when the project will be ready.
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
