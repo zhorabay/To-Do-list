@@ -87,7 +87,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/zhorabay/To-Do-list/issues/2)
+Feel free to check the [issues page](https://github.com/zhorabay/To-Do-list/issues/3)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
