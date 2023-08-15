@@ -8,25 +8,99 @@
   width: 100%;
   min-height: 100vh;
   padding: 10px;
-  background-color: aqua;
+  background-image: url(/images/bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .todo-app {
   width: 100%;
   max-width: 540px;
-  background-color: white;
+  background-color: #a5e2ff70;
   margin: 100px auto 20px;
-  padding: 40px 30px 70px;
+  padding: 40px 30px 50px;
   border-radius: 8px;
 }
 
-.todo-app h2 {
+.todo-app h2,
+#title-icon {
   color: rgb(110, 73, 255);
 }
 
 .title {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.fa-thumbtack {
+  color: rgb(110, 73, 255);
+  width: 30px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #edeef0;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+}
+
+span.task-description {
+  padding: 0 14px;
+  color: blueviolet;
+}
+
+.fa-trash {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  width: 40px;
+  height: 40px;
+  font-size: 22px;
+  color: #555;
+  line-height: 40px;
+  text-align: center;
+}
+
+.fa-trash:hover {
+  color: rgb(110, 73, 255);
+}
+
+.clearbtn {
+  width: 100%;
+  border: none;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 17px;
+  background-color: rgb(110, 73, 255);
+  color: white;
+  margin-top: 20px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul li {
+  color: blueviolet;
+  font-style: italic;
+  list-style: none;
+  cursor: pointer;
+  font-size: 17px;
+  padding: 12px 8px 12px 50px;
+  user-select: none;
 }
