@@ -57,6 +57,15 @@ input {
   padding: 10px;
 }
 
+ul li {
+  position: relative;
+  list-style: none;
+  cursor: pointer;
+  font-size: 17px;
+  padding: 12px 8px 12px 50px;
+  user-select: none;
+}
+
 span.task-description {
   padding: 0 14px;
   color: blueviolet;
@@ -87,20 +96,4 @@ span.task-description {
   background-color: rgb(110, 73, 255);
   color: white;
   margin-top: 20px;
-}
-
-ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-ul li {
-  color: blueviolet;
-  font-style: italic;
-  list-style: none;
-  cursor: pointer;
-  font-size: 17px;
-  padding: 12px 8px 12px 50px;
-  user-select: none;
 }
