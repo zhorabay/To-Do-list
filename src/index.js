@@ -1,5 +1,4 @@
 import './style.css';
-import Task from './modules/task.js';
 import UI from './modules/ui.js';
 
 const taskList = new UI();
