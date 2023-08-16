@@ -48,5 +48,6 @@ export default class UI {
   clearCompleted() {
     this.tasks = this.tasks.filter((task) => !task.completed);
     this.updateIndexes();
+    this.saveTasks();
   }
 }
