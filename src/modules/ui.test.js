@@ -1,6 +1,6 @@
 import UI from './ui.js';
 
-const jsdom = require('jsdom-global')();
+const jsdom = require('jsdom-global')(); // eslint-disable-line no-unused-vars
 
 global.localStorage = {
   getItem: jest.fn(),
