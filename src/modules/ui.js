@@ -16,13 +16,26 @@ export default class UI {
       this.tasks.push(newTask);
       this.updateIndexes();
       this.saveTasks();
+
+      const taskList = document.getElementById('task-list');
+      const listItem = document.createElement('li');
+      listItem.textContent = newTask.description;
+      taskList.appendChild(listItem);
     }
   }
 
   deleteTask(index) {
-    this.tasks.splice(index, 1);
-    this.updateIndexes();
-    this.saveTasks();
+    if (index >= 0 && index < this.tasks.length) {
+      this.tasks.splice(index, 1);
+      this.updateIndexes();
+      this.saveTasks();
+
+      const taskList = document.getElementById('task-list');
+      const deletedItem = taskList.children[index];
+      if (deletedItem) {
+        taskList.removeChild(deletedItem);
+      }
+    }
   }
 
   updateIndexes() {
