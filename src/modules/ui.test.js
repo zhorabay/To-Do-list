@@ -1,4 +1,5 @@
-import UI from './ui';
+import UI from './ui.js';
+
 const jsdom = require('jsdom-global')();
 
 global.localStorage = {
