@@ -1,14 +1,12 @@
 import UI from './ui';
 const jsdom = require('jsdom-global')();
 
-// Mock localStorage
 global.localStorage = {
   getItem: jest.fn(),
   setItem: jest.fn(),
   clear: jest.fn(),
 };
 
-// Mock the DOM
 document.body.innerHTML = `
   <ul id="task-list">
     <!-- Task items will be added/removed here -->
