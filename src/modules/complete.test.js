@@ -29,7 +29,7 @@ describe('Edit Task Description', () => {
     ui = null;
   });
 
-  it('should edit task description and update localStorage', () => {
+  it('should edit old task description and update in as new task localStorage', () => {
     const initialDescription = 'Initial Task Description';
     const newDescription = 'Updated Task Description';
     const task = new Task(initialDescription);
