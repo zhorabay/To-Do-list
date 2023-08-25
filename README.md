@@ -66,6 +66,8 @@ To get a local copy up and running follow these simple example steps.
 ## 👥 Authors <a name="authors"></a>
   
 👤 **Assem Zhorabay**
+👤 **Sami Ullah**
+
 
 - GitHub: [@zhorabay](https://github.com/zhorabay)
 - LinkedIn: [@zhorabay](https://www.linkedin.com/mwlite/in/zhorabay)
