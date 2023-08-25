@@ -1,7 +1,7 @@
 import UI from './ui.js';
 import Task from './task.js';
 
-const jsdom = require('jsdom-global')(); // eslint-disable-line no-unused-vars
+const jsdom = require('jsdom-global')();// eslint-disable-line no-unused-vars
 
 const mockLocalStorage = {
   getItem: jest.fn(),
