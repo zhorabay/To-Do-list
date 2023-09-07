@@ -33,8 +33,11 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Used ES6 Javascript]**
-- **[Used Webpack]**
+- **[The user can add tasks to the list]**
+- **[The user can change finished task status to 'checked']**
+- **[The user can edit the task description which is in the list]**
+- **[The user can delete the task from the list]**
+- **[The user can delete 2 and more completed tasks at once]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -60,35 +63,23 @@ To get a local copy up and running follow these simple example steps.
 - write: git clone git@github.com:zhorabay/To-Do-list.git
 - get into to directory "To-Do-list"
 - write: npm install
-[
+- write: npm start
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
   
 👤 **Assem Zhorabay**
 
-👤 **Abu Talha**
-
-👤 **Sami Ullah**
-
-
 - GitHub: [@zhorabay](https://github.com/zhorabay)
 - LinkedIn: [@zhorabay](https://www.linkedin.com/mwlite/in/zhorabay)
 - Twitter: [@zhorabay](https://twitter.com/AssemZhorabay)
 
-
-- GitHub: [@githubhandle](https://github.com/AbuTalha3)
-- Twitter: [@twitterhandle](https://twitter.com/AbuTalha8T)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Add a reordering a selected item (as drag-and-drop) function using JavaScript]**
-- [ ] **[Interactive list]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,7 +88,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/zhorabay/To-Do-list/issues/3)
+Feel free to check the [issues page](https://github.com/zhorabay/To-Do-list/issues)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,7 +102,7 @@ If you like this project, pplease, feel free to star the repository and share it
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse team and Code reviewers who helped us with creating this project.
+I would like to thank Microverse team and Code reviewers who helped us with creating this project. Also, I would like to express my gratitude to my husband and daughter for their patience.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
